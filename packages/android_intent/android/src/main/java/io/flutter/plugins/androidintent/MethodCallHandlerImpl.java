@@ -114,6 +114,8 @@ public final class MethodCallHandlerImpl implements MethodCallHandler {
     switch (action) {
       case "action_view":
         return Intent.ACTION_VIEW;
+      case "action_main":
+        return Intent.ACTION_MAIN;
       case "action_voice":
         return Intent.ACTION_VOICE_COMMAND;
       case "settings":
